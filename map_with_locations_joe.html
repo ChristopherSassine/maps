@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a342446b29eeb2c67e811eab13683f0e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a342446b29eeb2c67e811eab13683f0e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a342446b29eeb2c67e811eab13683f0e = L.map(
+                "map_a342446b29eeb2c67e811eab13683f0e",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_45d79635f10b0f1187fe95ef69330377 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_45d79635f10b0f1187fe95ef69330377.addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+            var marker_022c1a81f73a469510f109c8db4ee5db = L.marker(
+                [27.5888987, 85.514694],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_81352fbf2d3870e59af73fdb561979d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7a3644d6e95cf742e25ef257f0cdf82 = $(`<div id="html_e7a3644d6e95cf742e25ef257f0cdf82" style="width: 100.0%; height: 100.0%;">Pashupatinath Temple, Nepal</div>`)[0];
+                popup_81352fbf2d3870e59af73fdb561979d0.setContent(html_e7a3644d6e95cf742e25ef257f0cdf82);
+            
+        
+
+        marker_022c1a81f73a469510f109c8db4ee5db.bindPopup(popup_81352fbf2d3870e59af73fdb561979d0)
+        ;
+
+        
+    
+    
+            var marker_9969082ff4dbdaf5a465e353b011bc6f = L.marker(
+                [27.7183569, 85.3348353],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_e9e910c0274e65ca2547fcf6ed654051 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dbf474b00afe16ce49b0ebd930b0460 = $(`<div id="html_4dbf474b00afe16ce49b0ebd930b0460" style="width: 100.0%; height: 100.0%;">Buddha Stupa, Nepal</div>`)[0];
+                popup_e9e910c0274e65ca2547fcf6ed654051.setContent(html_4dbf474b00afe16ce49b0ebd930b0460);
+            
+        
+
+        marker_9969082ff4dbdaf5a465e353b011bc6f.bindPopup(popup_e9e910c0274e65ca2547fcf6ed654051)
+        ;
+
+        
+    
+    
+            var marker_574167c525ef810a5913ed640d9cb1c6 = L.marker(
+                [27.704332, 85.452118],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_c9d0f326fe7d9a81f8ca84268bd40b11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea96beed6d000213e734ed23a229f03d = $(`<div id="html_ea96beed6d000213e734ed23a229f03d" style="width: 100.0%; height: 100.0%;">Bhaktapur, Nepal</div>`)[0];
+                popup_c9d0f326fe7d9a81f8ca84268bd40b11.setContent(html_ea96beed6d000213e734ed23a229f03d);
+            
+        
+
+        marker_574167c525ef810a5913ed640d9cb1c6.bindPopup(popup_c9d0f326fe7d9a81f8ca84268bd40b11)
+        ;
+
+        
+    
+    
+            var marker_996b123b83b68a8afcabf895fe8cd4ed = L.marker(
+                [29.450609, 80.58243009015168],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_59f66c54328d625b164514c24cbb4b2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f1934d7a55504952b77886c460b5de = $(`<div id="html_f9f1934d7a55504952b77886c460b5de" style="width: 100.0%; height: 100.0%;">Patan, Nepal</div>`)[0];
+                popup_59f66c54328d625b164514c24cbb4b2f.setContent(html_f9f1934d7a55504952b77886c460b5de);
+            
+        
+
+        marker_996b123b83b68a8afcabf895fe8cd4ed.bindPopup(popup_59f66c54328d625b164514c24cbb4b2f)
+        ;
+
+        
+    
+    
+            var marker_3b4be7326844c1d3ea93d3f624c4780f = L.marker(
+                [27.708317, 85.3205817],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_4f4675bbc641fb260da519df854c2bb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b4af478992aaa52162b75140f390f3b = $(`<div id="html_8b4af478992aaa52162b75140f390f3b" style="width: 100.0%; height: 100.0%;">Kathmandu, Nepal</div>`)[0];
+                popup_4f4675bbc641fb260da519df854c2bb1.setContent(html_8b4af478992aaa52162b75140f390f3b);
+            
+        
+
+        marker_3b4be7326844c1d3ea93d3f624c4780f.bindPopup(popup_4f4675bbc641fb260da519df854c2bb1)
+        ;
+
+        
+    
+    
+            var marker_5a08c20e38bbefd09265af1079957e33 = L.marker(
+                [27.51682135, 84.43829352024234],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_03906f6f5c57775010fcf43a39f997d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d95fedd8585de9c288b598afee8d37eb = $(`<div id="html_d95fedd8585de9c288b598afee8d37eb" style="width: 100.0%; height: 100.0%;">Chitwan National Park, Nepal</div>`)[0];
+                popup_03906f6f5c57775010fcf43a39f997d0.setContent(html_d95fedd8585de9c288b598afee8d37eb);
+            
+        
+
+        marker_5a08c20e38bbefd09265af1079957e33.bindPopup(popup_03906f6f5c57775010fcf43a39f997d0)
+        ;
+
+        
+    
+    
+            var marker_ab72839b6c39b41b1ed772d27be4f5f7 = L.marker(
+                [27.7141215, 85.3148071103966],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_10ac135674f4ee8f8660ac23e172c031 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e41e2c4d2c5451f3d509cc714d8595a6 = $(`<div id="html_e41e2c4d2c5451f3d509cc714d8595a6" style="width: 100.0%; height: 100.0%;">Garden of Dreams, Nepal</div>`)[0];
+                popup_10ac135674f4ee8f8660ac23e172c031.setContent(html_e41e2c4d2c5451f3d509cc714d8595a6);
+            
+        
+
+        marker_ab72839b6c39b41b1ed772d27be4f5f7.bindPopup(popup_10ac135674f4ee8f8660ac23e172c031)
+        ;
+
+        
+    
+    
+            var marker_d5f6ee18f6c8078fbd5d12e599509966 = L.marker(
+                [27.742202499999998, 85.36387862200078],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_b00b430804bdb71a2c0b2d91cbadba6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5bb64ce08eb621e032fadaf41142e6d = $(`<div id="html_f5bb64ce08eb621e032fadaf41142e6d" style="width: 100.0%; height: 100.0%;">Kopan Monastery, Nepal</div>`)[0];
+                popup_b00b430804bdb71a2c0b2d91cbadba6a.setContent(html_f5bb64ce08eb621e032fadaf41142e6d);
+            
+        
+
+        marker_d5f6ee18f6c8078fbd5d12e599509966.bindPopup(popup_b00b430804bdb71a2c0b2d91cbadba6a)
+        ;
+
+        
+    
+    
+            var marker_331a2d8aeae64e1ec648217bd910ebeb = L.marker(
+                [28.2135166, 83.9485713],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_2957875b1d0947e4a7942efeb00d13a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be88c60a7e1135ec000c2b0391d0160d = $(`<div id="html_be88c60a7e1135ec000c2b0391d0160d" style="width: 100.0%; height: 100.0%;">Phewa Lake, Nepal</div>`)[0];
+                popup_2957875b1d0947e4a7942efeb00d13a8.setContent(html_be88c60a7e1135ec000c2b0391d0160d);
+            
+        
+
+        marker_331a2d8aeae64e1ec648217bd910ebeb.bindPopup(popup_2957875b1d0947e4a7942efeb00d13a8)
+        ;
+
+        
+    
+    
+            var marker_b3875a719099cf4e2bbd27521d6228a8 = L.marker(
+                [27.717028, 85.311256],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_ac9749b44a2c77b3a7bd5539d71b67a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e2967add596c1bf274a910bfc6f81ba = $(`<div id="html_0e2967add596c1bf274a910bfc6f81ba" style="width: 100.0%; height: 100.0%;">Thamel, Nepal</div>`)[0];
+                popup_ac9749b44a2c77b3a7bd5539d71b67a8.setContent(html_0e2967add596c1bf274a910bfc6f81ba);
+            
+        
+
+        marker_b3875a719099cf4e2bbd27521d6228a8.bindPopup(popup_ac9749b44a2c77b3a7bd5539d71b67a8)
+        ;
+
+        
+    
+    
+            var marker_a24f032808c35db74739d77f651c27ab = L.marker(
+                [27.4748522, 83.2760463],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_3b82e0f8826395ba23ff359c500de955 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a66307e6b695f66b4b609084b93455 = $(`<div id="html_32a66307e6b695f66b4b609084b93455" style="width: 100.0%; height: 100.0%;">Peace Temple, Nepal</div>`)[0];
+                popup_3b82e0f8826395ba23ff359c500de955.setContent(html_32a66307e6b695f66b4b609084b93455);
+            
+        
+
+        marker_a24f032808c35db74739d77f651c27ab.bindPopup(popup_3b82e0f8826395ba23ff359c500de955)
+        ;
+
+        
+    
+    
+            var marker_c8d81d1248994f8ced818647adb5a9f8 = L.marker(
+                [27.691429, 85.2773414],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_c5e65ba7b2093bec08ecd2b0946e3fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef72fa9630dda2b207dce9d088e3750e = $(`<div id="html_ef72fa9630dda2b207dce9d088e3750e" style="width: 100.0%; height: 100.0%;">Chandragiri Hills, Nepal</div>`)[0];
+                popup_c5e65ba7b2093bec08ecd2b0946e3fe0.setContent(html_ef72fa9630dda2b207dce9d088e3750e);
+            
+        
+
+        marker_c8d81d1248994f8ced818647adb5a9f8.bindPopup(popup_c5e65ba7b2093bec08ecd2b0946e3fe0)
+        ;
+
+        
+    
+    
+            var marker_33e6c82cefd732c659f45df9b3ac3d52 = L.marker(
+                [27.7780872, 85.36232349672666],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_169e3487f0a2ded7b69a8a15c370bd1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8563d9df6b4e7059223c2c0f95a5a940 = $(`<div id="html_8563d9df6b4e7059223c2c0f95a5a940" style="width: 100.0%; height: 100.0%;">Budhanilkantha, Nepal</div>`)[0];
+                popup_169e3487f0a2ded7b69a8a15c370bd1c.setContent(html_8563d9df6b4e7059223c2c0f95a5a940);
+            
+        
+
+        marker_33e6c82cefd732c659f45df9b3ac3d52.bindPopup(popup_169e3487f0a2ded7b69a8a15c370bd1c)
+        ;
+
+        
+    
+    
+            var marker_de4dcd7de166225bce5c98f63000ad73 = L.marker(
+                [27.62263645, 85.36354205686145],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_90f9eb1a20ae55f6c26dd7ea4f5a315b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9aa84a6a2d78d5e9556d2ffbe29c4c9 = $(`<div id="html_f9aa84a6a2d78d5e9556d2ffbe29c4c9" style="width: 100.0%; height: 100.0%;">Muktinath Temple, Nepal</div>`)[0];
+                popup_90f9eb1a20ae55f6c26dd7ea4f5a315b.setContent(html_f9aa84a6a2d78d5e9556d2ffbe29c4c9);
+            
+        
+
+        marker_de4dcd7de166225bce5c98f63000ad73.bindPopup(popup_90f9eb1a20ae55f6c26dd7ea4f5a315b)
+        ;
+
+        
+    
+    
+            var marker_ee282b993c7ceb5fc55e3cc657b8ff84 = L.marker(
+                [27.704099, 85.3074492],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_c53ae16a1bb8043b59500bc1f0380b5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4edced9bad6b6b05620c06e9a252b8fc = $(`<div id="html_4edced9bad6b6b05620c06e9a252b8fc" style="width: 100.0%; height: 100.0%;">Hanuman Dhoka, Nepal</div>`)[0];
+                popup_c53ae16a1bb8043b59500bc1f0380b5f.setContent(html_4edced9bad6b6b05620c06e9a252b8fc);
+            
+        
+
+        marker_ee282b993c7ceb5fc55e3cc657b8ff84.bindPopup(popup_c53ae16a1bb8043b59500bc1f0380b5f)
+        ;
+
+        
+    
+    
+            var marker_11561f36355981f77d493c6a8c24a0d8 = L.marker(
+                [27.67140975, 85.42937250724341],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_4a87b94ebc21dff1ffd14d410a825ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_931163c97de53ecd955f12e1651a7886 = $(`<div id="html_931163c97de53ecd955f12e1651a7886" style="width: 100.0%; height: 100.0%;">Nyatapola Temple, Nepal</div>`)[0];
+                popup_4a87b94ebc21dff1ffd14d410a825ff6.setContent(html_931163c97de53ecd955f12e1651a7886);
+            
+        
+
+        marker_11561f36355981f77d493c6a8c24a0d8.bindPopup(popup_4a87b94ebc21dff1ffd14d410a825ff6)
+        ;
+
+        
+    
+    
+            var marker_306effdaaf1059e1ddf0592a884eb09d = L.marker(
+                [27.7164115, 85.42793331941634],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_ef4e1b6c92610e2dcdb36426f130e15a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f676ef1eb3e1f12cf0f5e232f9ade03 = $(`<div id="html_2f676ef1eb3e1f12cf0f5e232f9ade03" style="width: 100.0%; height: 100.0%;">Changu Narayan, Nepal</div>`)[0];
+                popup_ef4e1b6c92610e2dcdb36426f130e15a.setContent(html_2f676ef1eb3e1f12cf0f5e232f9ade03);
+            
+        
+
+        marker_306effdaaf1059e1ddf0592a884eb09d.bindPopup(popup_ef4e1b6c92610e2dcdb36426f130e15a)
+        ;
+
+        
+    
+    
+            var marker_e06352b0088003554536823d5bd9ad81 = L.marker(
+                [27.6752237, 85.32471051342272],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_d5cea1ef8c522786e6f79f54e26bfb78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ef7d979b1a8e1802c2c9c8c6d9a96a7 = $(`<div id="html_1ef7d979b1a8e1802c2c9c8c6d9a96a7" style="width: 100.0%; height: 100.0%;">Golden Temple (Hiranya Varna Mahavihar), Nepal</div>`)[0];
+                popup_d5cea1ef8c522786e6f79f54e26bfb78.setContent(html_1ef7d979b1a8e1802c2c9c8c6d9a96a7);
+            
+        
+
+        marker_e06352b0088003554536823d5bd9ad81.bindPopup(popup_d5cea1ef8c522786e6f79f54e26bfb78)
+        ;
+
+        
+    
+    
+            var marker_fd9457df9ffec84782e75ddd8321e5b3 = L.marker(
+                [28.1678178, 84.0879212],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_f454ca506f83e525b7e11101c1d530f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c305506d1bbf9614122711da37bc1350 = $(`<div id="html_c305506d1bbf9614122711da37bc1350" style="width: 100.0%; height: 100.0%;">Begnas Lake, Nepal</div>`)[0];
+                popup_f454ca506f83e525b7e11101c1d530f9.setContent(html_c305506d1bbf9614122711da37bc1350);
+            
+        
+
+        marker_fd9457df9ffec84782e75ddd8321e5b3.bindPopup(popup_f454ca506f83e525b7e11101c1d530f9)
+        ;
+
+        
+    
+    
+            var marker_95352dc175a7793f0a4a04ebb33d9b47 = L.marker(
+                [27.5716685, 85.5840024],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_3f0ba78223553bbd82eb47d3beccf0ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63b8716202cc8465c532f11e6d1eb7c5 = $(`<div id="html_63b8716202cc8465c532f11e6d1eb7c5" style="width: 100.0%; height: 100.0%;">Namo Buddha, Nepal</div>`)[0];
+                popup_3f0ba78223553bbd82eb47d3beccf0ee.setContent(html_63b8716202cc8465c532f11e6d1eb7c5);
+            
+        
+
+        marker_95352dc175a7793f0a4a04ebb33d9b47.bindPopup(popup_3f0ba78223553bbd82eb47d3beccf0ee)
+        ;
+
+        
+    
+    
+            var marker_f5c9d45d52c624dca2417700f76195d2 = L.marker(
+                [28.2461791, 83.98854445250649],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_88edb48584444bf9ae78748517fff26b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22032a4b707d6a37a05d58a403aeb539 = $(`<div id="html_22032a4b707d6a37a05d58a403aeb539" style="width: 100.0%; height: 100.0%;">Gurkha Memorial Museum, Nepal</div>`)[0];
+                popup_88edb48584444bf9ae78748517fff26b.setContent(html_22032a4b707d6a37a05d58a403aeb539);
+            
+        
+
+        marker_f5c9d45d52c624dca2417700f76195d2.bindPopup(popup_88edb48584444bf9ae78748517fff26b)
+        ;
+
+        
+    
+    
+            var marker_91d974a049f2435fa9a05b408c311c0c = L.marker(
+                [28.209538, 83.991402],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_6e0aad67a9c17591dbe9bd6dcff47fad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d8cada09dec4091d6f037a1360abf00 = $(`<div id="html_9d8cada09dec4091d6f037a1360abf00" style="width: 100.0%; height: 100.0%;">Pokhara, Nepal</div>`)[0];
+                popup_6e0aad67a9c17591dbe9bd6dcff47fad.setContent(html_9d8cada09dec4091d6f037a1360abf00);
+            
+        
+
+        marker_91d974a049f2435fa9a05b408c311c0c.bindPopup(popup_6e0aad67a9c17591dbe9bd6dcff47fad)
+        ;
+
+        
+    
+    
+            var marker_49ec82bca9785a154435bb9912ac1d4b = L.marker(
+                [27.692055, 85.5199997],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_22636fafd01d3cf8c48ac70a9fb1ac1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56fc526ce75212d6e94d664003964c19 = $(`<div id="html_56fc526ce75212d6e94d664003964c19" style="width: 100.0%; height: 100.0%;">Nagarkot, Nepal</div>`)[0];
+                popup_22636fafd01d3cf8c48ac70a9fb1ac1a.setContent(html_56fc526ce75212d6e94d664003964c19);
+            
+        
+
+        marker_49ec82bca9785a154435bb9912ac1d4b.bindPopup(popup_22636fafd01d3cf8c48ac70a9fb1ac1a)
+        ;
+
+        
+    
+    
+            var marker_b2bb793cb9f4103bb652742411198f00 = L.marker(
+                [29.3226744, 81.2890314],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_5b3bbff5c5e01a341254bd05a2911ece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fee7b4b6c8c2208df911c0040f7dadc = $(`<div id="html_1fee7b4b6c8c2208df911c0040f7dadc" style="width: 100.0%; height: 100.0%;">Nuwakot, Nepal</div>`)[0];
+                popup_5b3bbff5c5e01a341254bd05a2911ece.setContent(html_1fee7b4b6c8c2208df911c0040f7dadc);
+            
+        
+
+        marker_b2bb793cb9f4103bb652742411198f00.bindPopup(popup_5b3bbff5c5e01a341254bd05a2911ece)
+        ;
+
+        
+    
+    
+            var marker_d8a2bf2377f940212de4cd77ffb5647f = L.marker(
+                [27.585045, 85.516022],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_ca1a4f2c6255c70c9339a88633913f8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_832a499afa08623f36a958e20eef9be4 = $(`<div id="html_832a499afa08623f36a958e20eef9be4" style="width: 100.0%; height: 100.0%;">Panauti, Nepal</div>`)[0];
+                popup_ca1a4f2c6255c70c9339a88633913f8a.setContent(html_832a499afa08623f36a958e20eef9be4);
+            
+        
+
+        marker_d8a2bf2377f940212de4cd77ffb5647f.bindPopup(popup_ca1a4f2c6255c70c9339a88633913f8a)
+        ;
+
+        
+    
+    
+            var marker_abd42a6b948a1624e4986bfbee596876 = L.marker(
+                [27.918652950000002, 84.3926169987632],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_95a8405c2b941f209e522d128f143eee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8db92bb32a5ba34f4bd9bb9b2d7bb5d = $(`<div id="html_f8db92bb32a5ba34f4bd9bb9b2d7bb5d" style="width: 100.0%; height: 100.0%;">Bandipur, Nepal</div>`)[0];
+                popup_95a8405c2b941f209e522d128f143eee.setContent(html_f8db92bb32a5ba34f4bd9bb9b2d7bb5d);
+            
+        
+
+        marker_abd42a6b948a1624e4986bfbee596876.bindPopup(popup_95a8405c2b941f209e522d128f143eee)
+        ;
+
+        
+    
+    
+            var marker_0f3130df6a5d29b51a99a07b3a4d3f10 = L.marker(
+                [27.7148956, 85.3181031],
+                {}
+            ).addTo(map_a342446b29eeb2c67e811eab13683f0e);
+        
+    
+        var popup_65677e7d8ea938be3618ebea9ea1ad39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d5910cf8fccd5be133fcf174ff0d55c = $(`<div id="html_0d5910cf8fccd5be133fcf174ff0d55c" style="width: 100.0%; height: 100.0%;">Narayanhiti Palace Museum, Nepal</div>`)[0];
+                popup_65677e7d8ea938be3618ebea9ea1ad39.setContent(html_0d5910cf8fccd5be133fcf174ff0d55c);
+            
+        
+
+        marker_0f3130df6a5d29b51a99a07b3a4d3f10.bindPopup(popup_65677e7d8ea938be3618ebea9ea1ad39)
+        ;
+
+        
+    
+</script>
+</html>
